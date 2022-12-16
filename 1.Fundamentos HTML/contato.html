@@ -8,6 +8,29 @@
     <title>Contato</title>
 </head>
 <body>
-    
+    <form method="get" action="Capgemini.html"> <!--se usarmos https://google.com/search com o name "q" encaminharemos o resultado para o search do google-->
+        <input type="text" name="nome" placeholder="Nome"><br>
+        <input type="email" name="email" placeholder="E-mail"><br>
+        <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx"><br>
+        <input type="number" name="idade" placeholder="Idade"><br>
+        <input type="url" name="linkedin" placeholder="Insira o seu LinkedIn"><br>
+        Urgência <input type="range" name="urgencia" min="0" max="100" step="1"><br>
+        <input type="checkbox" name="dia-da-semana" value="2">Segunda-feira<br>
+        <input type="checkbox" name="dia-da-semana" value="3">Terça-feira<br>
+        <input type="checkbox" name="dia-da-semana" value="4">Quarta-feira<br>
+        <input type="radio" name="horario" value="manha">Manhã
+        <input type="radio" name="horario" value="tarde">Tarde
+        <input type="radio" name="horario" value="noite">Noite <br>
+        <textarea name="mensagem" cols="50" rows="10"></textarea><br>
+        Cidade: <input list="cidade" name="cidade">
+        <datalist id="cidade">
+            <option value="Blumenau">Blumenau</option>
+            <option value="Florianópolis">Florianópolis</option>
+            <option value="Joinville">Joinville</option>
+        </datalist><br>
+        <button type="button">Outra ação</button>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
