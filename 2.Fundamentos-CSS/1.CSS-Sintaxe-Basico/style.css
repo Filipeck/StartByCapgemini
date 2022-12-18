@@ -1,0 +1,27 @@
+h2{
+    color: green;
+}
+
+p{
+    color: gold;
+}
+
+.contact-title{
+    text-decoration: underline;
+}
+
+.blue-text{
+    color: blue;
+}
+
+.red-text{
+    color: red;
+}
+
+#first-contact{
+    text-decoration: none;
+}
+
+#second-contact{
+    color: brown;
+}
