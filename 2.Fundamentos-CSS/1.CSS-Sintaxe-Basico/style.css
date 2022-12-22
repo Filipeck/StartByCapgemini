@@ -1,15 +1,59 @@
 html{
     height: 100vh;
-    background-image: url('./tech-background.jpg');
+    background-image: url('./technology.webp');
     background-size: cover;
+    font-size: 18px;
+}
+
+h1,h2,h3{
+    text-align:center ;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-variant: small-caps;
+    font-size: 2rem;
+}
+
+main{
+    font-family: 'Times New Roman', serif , sans-serif;
 }
 
 h2{
     color: green;
+    font-style: italic;
 }
 
-p{
+main p{
+    font-family: fantasy;
     color: gold;
+    text-indent: 1.5rem;
+    text-align: start;
+}
+
+span{
+    text-decoration: line-through;
+    letter-spacing: 0.5rem;
+    text-transform: capitalize;
+}
+
+a:visited{
+    color: olivedrab;
+}
+
+a:hover{
+    color: coral;
+}
+
+a:active{
+    color: blue;
+}
+
+a:link{
+    color: blueviolet;
+    cursor:help;
+    text-decoration: none;
 }
 
 .contact-title{
