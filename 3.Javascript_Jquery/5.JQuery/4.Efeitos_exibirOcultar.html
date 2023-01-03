@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Base - jquery</title>
+    <!--jQuery-->
+    <script src="./jquery-3.6.3.min.js"></script>
+    <!--Script-->
+    <script>
+
+        //Ao carregar o documento
+        $(document).ready(function () {
+
+            //Exibr
+            $('#exibir').click(function(){
+                $('img').show();
+            });
+            //Ocultar
+            $('#ocultar').click(function(){
+                $('img').hide();
+            });
+
+        });
+    </script>
+</head>
+
+<body style="background-color: black;">
+    <div style="margin: 15% 25%; width: 50%; text-align: center; padding: 25px;">
+        <button id="exibir">Exibir</button>
+        <button id="ocultar">Ocultar</button>
+
+
+        <img style="display: block; margin: 30px auto;" src="./logoStart.png" alt="logo Start" width="200px">
+    </div>
+</body>
+
+</html>
