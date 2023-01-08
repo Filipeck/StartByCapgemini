@@ -1,0 +1,15 @@
+.logo{
+    width: 50%;
+}
+
+#azul{
+    width: 50vw;
+    height: 40vh;
+    background-color: blue;
+}
+
+#vermelho{
+    width: 30vh;
+    height: 300px;
+    background: red;
+}
