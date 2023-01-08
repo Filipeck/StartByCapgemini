@@ -1,0 +1,51 @@
+.bg1{
+    width: 80%;
+    height: 300px;
+    margin: 10px auto;
+    background:rgb(0, 174, 255) url(./BackgroundImage.png) no-repeat bottom right;
+    /* background-color: rgb(0, 174, 255);
+    background-image: url(./BackgroundImage.png);
+    background-position: bottom right;
+    background-repeat: no-repeat; */
+}
+
+.bg2{
+    width: 80%;
+    height: 300px;
+    margin: 10px auto;
+    background-image: url(./Ceramica.jpg);
+    background-color: yellow;
+}
+
+.bg3{
+    width: 80%;
+    height: 300px;
+    margin: 10px auto;
+    background-image: url(./Fundo_abstrato.jpg);
+    background-size: cover;
+    background-color: red;
+}
+
+.bg4{
+    width: 80%;
+    height: 300px;
+    margin: 10px auto;
+    background-image: url(./Textura_fundo.png);
+    background-color: green;
+}
+
+.bg5{
+    width: 80%;
+    height: 300px;
+    margin: 10px auto;
+    background: linear-gradient(90deg, yellow, 15%, blue 85%, orange); /*pode colocar to right, to left, to bottom right, to top left, etc*/
+}
+
+p{
+    width: 50%;
+    margin: 10px auto;
+    background-image: url(./Fundo_abstrato.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
