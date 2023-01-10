@@ -56,6 +56,10 @@ h2{
     cursor: url(./images/cursor_preparo.png), default;
 }
 
+.instrucoes{
+    cursor: url(./images/cursor_intrucoes.png), auto;
+}
+
 a{
     text-decoration: none;
 }
@@ -73,4 +77,8 @@ li{
 
 .lista-ingredientes{
     margin-bottom: 5rem;
+}
+
+p, li{
+    line-height: 2.8rem;
 }
