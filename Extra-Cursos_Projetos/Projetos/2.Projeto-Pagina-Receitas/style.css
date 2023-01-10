@@ -82,3 +82,21 @@ li{
 p, li{
     line-height: 2.8rem;
 }
+
+.rodape{
+    background-color: #FF6b28;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.rodape-texto{
+    max-width: 500px;
+    margin: auto;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.text-white{
+    color: white;
+}
