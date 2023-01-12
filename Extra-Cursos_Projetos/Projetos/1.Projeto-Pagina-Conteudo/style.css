@@ -15,4 +15,5 @@ body{
     font-weight: 700;
     text-align: center;
     padding: 0.8rem;
+    border-bottom: 0.5rem solid #fd8a24;
 }
