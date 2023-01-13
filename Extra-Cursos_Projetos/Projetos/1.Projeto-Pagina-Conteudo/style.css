@@ -6,6 +6,11 @@ body{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    color: #555;
+}
+
+h1, h2{
+    color: #111;
 }
 
 .top-bar{
@@ -16,4 +21,34 @@ body{
     text-align: center;
     padding: 0.8rem;
     border-bottom: 0.5rem solid #fd8a24;
+}
+
+.container{
+    max-width: 88.8rem;
+    margin: auto;
+    padding: 3rem;
+}
+
+.headline{
+    font-size: 5.6rem;
+    line-height: 6.4rem;
+}
+
+
+.subtitle{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.author{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.social-icons{
+
+}
+
+.social-icon{
+
 }
