@@ -57,3 +57,13 @@ h1, h2{
 a{
     text-decoration: none;
 }
+
+.content{
+    max-width: 64.8rem;
+    margin: auto;
+}
+
+p{    
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
